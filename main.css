@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+header {
+    padding-top: 60px;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.button-group-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.button-link {
+    text-align: center;
+    width: 80%;
+}
+
+.main-button {
+    margin-bottom: 20px;
+    width: 70%;
+    height: 60px;
+    font-size: 30px;
+}
+
+#portfolio h2 {
+    text-align: center;
+}
+
+.portfolio-image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio-image {
+    width: 100%;
+}
+
+.portfolio-links {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+
+.headshot {
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (min-width: 750px) {
+    /* why won't this work properly? */
+    .button-link {
+        width: 70%;
+    }
+
+    .portfolio-image {
+        width: 60%;
+    }
+}
