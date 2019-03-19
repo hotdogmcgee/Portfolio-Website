@@ -9,21 +9,23 @@
     <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
-    <nav role="navigation">
-        <ul>
-            <li class="nav-bar-top">Kevin Robinson</li>
-            <li class="nav-bar-bottom">web developer</li>
-        </ul>
+    <header role="banner">
+        <div>
+            <span class="header-top">Kevin Robinson</span>
+            <span class="header-bottom">web developer</span>
+        </div>
          
-    </nav>
+    </header>
     <main role="main">
-        <header role="banner">
+        <section role="title" class="hero">
             <h1><span class="hero-symbols">&#9900;</span>  Hi, my name is Kevin. 
                 <br>
-                 I am studying fullstack web development, here are some projects I have enjoyed creating.  <span class="hero-symbols">&#9900;</span></h1>
-        </header>
+                 I am studying fullstack web development, here are some projects I enjoyed creating.  <span class="hero-symbols">&#9900;</span></h1>
+            </section>
 
         <section class="button-group-main">
             
@@ -35,6 +37,9 @@
         <hr>
 
         <section id="bio">
+            <div class="headshot-container">
+                <img class="headshot" src="https://i.imgur.com/Ft37cT0.jpg">
+            </div>
             <p>I started studying web development with Thinkful.com recently, and am having a great time working up my skills. Learning how to program and design websites has been fascinating.  The puzzles posed and the answers required have really tested my ability to work logically and reduce complex ideas to simple ones.  Using the web development processes I have learned thus far has been very satisfying and I look forward to expanding my talents.</p>
             
             <br>
@@ -62,13 +67,16 @@
         </section>
 
         <section id="contact">
-            <img class="headshot" src="https://i.imgur.com/Ft37cT0.jpg">
             <h3>I can be found on these platforms.</h3>
-            <ul class="contact-buttons">
-                <li><a href="https://github.com/hotdogmcgee/" target="_blank"><img class="contact-icons" src="https://github.com/hotdogmcgee/Portfolio-Website/blob/master/Images/github%20icon.png?raw=true"></a></li>
-                <li><a href="https://linkedin.com/in/kevin-robinson-a05b5b181" target="_blank"><img  class="contact-icons"src="https://github.com/hotdogmcgee/Portfolio-Website/blob/master/Images/linkedIn%20icon.png?raw=true"></a></li>
-            </ul>
+            <div role="group" class="contact-buttons">
+                <span><a href="https://github.com/hotdogmcgee/" target="_blank"><img class="contact-icons" src="https://github.com/hotdogmcgee/Portfolio-Website/blob/master/Images/github%20icon.png?raw=true"></a></span>
+                <span><a href="https://linkedin.com/in/kevin-robinson-a05b5b181" target="_blank"><img  class="contact-icons"src="https://github.com/hotdogmcgee/Portfolio-Website/blob/master/Images/linkedIn%20icon.png?raw=true"></a></span>
+            </div>
         </section>
+
+        <button class="scroll-top" data-scroll="up" type="button">
+            <span>Top</span>
+            </button>
     </main>
     <footer role="content-info">&copy; Kevin Robinson 2019</footer>
 </body>
