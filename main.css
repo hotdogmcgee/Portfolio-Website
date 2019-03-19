@@ -109,6 +109,7 @@ hr {
 
 #portfolio {
     padding-top: 100px;
+    padding-bottom: 40px;
 }
 #portfolio h2 {
     text-align: center;
@@ -138,7 +139,7 @@ h3 {
 #contact {
     text-align: center;
     padding-bottom: 30px;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .scroll-top {
@@ -155,6 +156,10 @@ h3 {
     display: inline-block;
     color: #fff;
     font-size: 16px;
+  }
+
+  .scroll-top:hover {
+      cursor: pointer;
   }
 
 .contact-buttons {
@@ -181,12 +186,60 @@ footer {
 
 
 @media only screen and (min-width: 750px) {
-    /* why won't this work properly? */
+
+    header {
+        height: 108px;
+        font-size: 35px;
+    }
+
+    main {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
     .button-link {
         width: 70%;
     }
 
+    .headshot {
+        float: left;
+        margin-right: 40px;
+    }
+
+
     .portfolio-image {
+        width: 60%;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .scroll-top {
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        display: none;
+        background-color: #a82d3d;
+      }
+    
+      .scroll-top span {
+        display: inline-block;
+        color: #fff;
+        font-size: 20px;
+      }
+}
+
+@media only screen and (min-width: 1100px) {
+
+    .main-button {
+        margin-bottom: 40px;
+        height: 80px;
+    }
+
+    .button-link {
         width: 60%;
     }
 }
