@@ -116,6 +116,10 @@ hr {
     font-family: 'Ultra'
 }
 
+.portfolio-project {
+    margin-bottom: 70px;
+}
+
 h3 {
     text-align: center;
     font-family: 'Ubuntu';
@@ -130,9 +134,24 @@ h3 {
     width: 100%;
 }
 
+.icon-container {
+    text-align: center;
+}
+
+.tech-icon {
+    height: 25px;
+    width: 25px;
+}
+
 .portfolio-links {
     text-align: center;
     cursor: pointer;
+}
+
+.portfolio-links a {
+    text-decoration: none;
+    color: #a82d3d;
+    font-weight: bold;
 }
 
 
@@ -241,5 +260,19 @@ footer {
 
     .button-link {
         width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .header-top {
+        padding-left: 200px;
+    }
+
+    .header-bottom {
+        right: 200px;
+    }
+
+    p {
+        padding: 0 200px 0 200px;
     }
 }
