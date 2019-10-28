@@ -118,6 +118,8 @@ hr {
 
 .portfolio-project {
     margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 h3 {
