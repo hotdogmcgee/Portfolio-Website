@@ -15,6 +15,8 @@ main {
 }
 
 header {
+  /* display: flex;
+  align-items: center; */
   width: 100%;
   height: 81px;
   background-color: #2da887;
@@ -67,15 +69,9 @@ p {
   padding-bottom: 20px;
 }
 
-.button-link {
-  text-align: center;
-  width: 80%;
-  cursor: default;
-}
-
 .main-button {
   margin-bottom: 20px;
-  width: 85%;
+  width: 80%;
   height: 60px;
   font-size: 30px;
   background-color: #a8622d;
@@ -84,6 +80,7 @@ p {
   font-style: italic;
   border: 1px solid black;
   cursor: pointer;
+  text-align: center;
 }
 
 hr {
@@ -216,7 +213,7 @@ footer {
     padding-right: 70px;
   }
 
-  .button-link {
+  .main-button {
     width: 70%;
   }
 
@@ -254,9 +251,6 @@ footer {
   .main-button {
     margin-bottom: 40px;
     height: 80px;
-  }
-
-  .button-link {
     width: 60%;
   }
 }
